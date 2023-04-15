@@ -21,6 +21,7 @@ flex-direction: column;
 }
 > .line {
     width: 100%;
+    max-width: 674px;
     border: 1px solid rgba(243, 243, 243, 0.2);
     margin-bottom: 38px;
 }
