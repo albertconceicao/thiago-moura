@@ -4,6 +4,12 @@ export const Container = styled.div`
 background: #004880;
 height: 439px;
 padding: 85px 100px;
+@media (max-width: 768px) {
+    padding: 85px 0;
+    h3 {
+        font-size: 20px;
+    }
+}
 `;
 export const FooterContent = styled.div`
 display: flex;
@@ -30,5 +36,10 @@ flex-direction: column;
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 45px;
+}
+@media (max-width: 768px) {
+    h3 {
+        font-size: 22px;
+    }
 }
 `;

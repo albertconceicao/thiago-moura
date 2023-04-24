@@ -29,5 +29,13 @@ div {
     flex-direction: row-reverse;
 }
 
-
+@media (max-width: 1000px) {
+    flex-direction: column;
+    &:nth-child(odd) {
+        flex-direction: column;
+    }
+    img {
+        flex: 1;
+    }
+}
 `;

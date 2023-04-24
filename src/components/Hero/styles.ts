@@ -12,6 +12,10 @@ p {
     margin: 1.25rem 0 3.125rem 0;
     max-width: 36.5625rem;
 }
+@media (max-width: 1000px) {
+    flex-direction: column;
+    gap: 20px;
+}
 `;
 
 export const HeroText = styled.div`
