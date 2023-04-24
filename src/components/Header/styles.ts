@@ -12,6 +12,12 @@ export const Container = styled.div`
     height: 2.875rem;
    }
 
+@media (max-width: 1000px) {
+    > img {
+        width: 48px;
+        height: 48px;
+    }
+}
 `;
 export const Navbar = styled.ul`
     display: flex;
@@ -27,5 +33,22 @@ export const Navbar = styled.ul`
         &:hover {
             border-bottom: 1px solid ${({theme}) => theme.text};
         }
+        @media (max-width: 768px) {
+            font-size: 0.875rem;
+        }
     }
+    @media (max-width: 1000px) {
+        gap: 2rem;
+        justify-content: center;
+        padding: 0 0 0 1rem;
+        align-items: flex-start;
+
+        
+    }
+    @media (max-width: 768px) {
+        gap: 1.25rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
 `;
