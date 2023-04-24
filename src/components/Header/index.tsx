@@ -28,7 +28,7 @@ export function Header() {
          <Link href='/'>
             <Image src={Logo} alt='Logotipo Thiago Moura'/>
           </Link>
-          <Button onClick={onOpen} >
+          <Button onClick={onOpen} bg='white'>
             <Icon as={GiHamburgerMenu} fontSize={30}/>
           </Button>
           <Drawer
