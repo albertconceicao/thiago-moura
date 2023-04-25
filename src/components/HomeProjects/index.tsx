@@ -35,7 +35,7 @@ const projects = [
   },
 ]
 
-export function Projects() {
+export function HomeProjects() {
   return (
     <Container>
       <h1>Projetos</h1>

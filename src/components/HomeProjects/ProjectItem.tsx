@@ -21,7 +21,7 @@ export function ProjectItem({ title, text, path, img, width, height }: ProjectsP
            <h3>{title}</h3> 
             <p>{text}</p>
 
-            <Link className="standard" href={`/projects${path}`}>Ver projeto</Link>
+            <Link className="standard" href={`${path}`}>Ver projeto</Link>
         </div>
     </ProjectContainer>
   );

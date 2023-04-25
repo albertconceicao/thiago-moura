@@ -20,10 +20,7 @@ export default createGlobalStyle`
     background: #fff;
     font: 400 1rem 'Open Sans', sans-serif;
   }
-  img {
-    width: 100%;
-    max-width: 100%;
-  }
+ 
   ul {
     list-style: none;
   }

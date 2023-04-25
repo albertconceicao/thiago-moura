@@ -1,10 +1,6 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
 import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
-import { Projects } from '@/components/Projects'
 import { Footer } from '@/components/Footer'
-import { About } from '@/components/About'
 import { AlternativeHero } from '@/components/AlternativeHero'
 import { ContactSection } from '@/components/ContactSection'
 
