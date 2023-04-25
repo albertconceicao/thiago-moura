@@ -22,6 +22,7 @@ margin: 160px auto;
 strong {
     font-weight: 700;
     height: 100%;
+    font-size: 20px;
 }
 p {
     font-size: 17px;
