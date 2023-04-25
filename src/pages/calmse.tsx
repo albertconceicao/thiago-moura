@@ -10,7 +10,7 @@ import Image from 'next/image';
 import { FunctionsAndTools } from '@/components/FunctionsAndTools';
 import { SectionInfo } from '@/components/SectionInfo';
 import Diagrama from '../assets//project1/diagrama-afinidade.png';
-import Persona from '../assets//project1/Persona 1.png';
+import Persona from '../assets//project1/persona.png';
 import UserFlow from '../assets//project1/user-flow.png';
 import Mapa from '../assets//project1/jornada-usuario.png';
 export default function Home() {
