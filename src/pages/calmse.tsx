@@ -62,9 +62,9 @@ export default function Home() {
           </ul>
         </SectionInfo>
         <SectionInfo title='Coleta de dados' text='Após as entrevistas separei em um diagrama de afinidade os assuntos mais relevantes que foram tratados.' img={<Image src={Diagrama} alt='Diagrama afinidade' width={1007} height={538}/>}/>
-        <SectionInfo title='Persona' text='Após a coleta dos dados, desenvolvi uma persona para me guiar durante todo o processo de Design' img={<Image src={Persona} alt='Diagrama afinidade' width={855} height={455}/>}/>
-        <SectionInfo title='User flow'  img={<Image src={UserFlow} alt='Diagrama afinidade' width={964} height={604}/>}/>
-        <SectionInfo title='Mapa de jornada do usuário'  img={<Image src={Mapa} alt='Diagrama afinidade' width={898} height={696}/>}/>
+        <SectionInfo title='Persona' text='Após a coleta dos dados, desenvolvi uma persona para me guiar durante todo o processo de Design' img={<Image src={Persona} alt='Persona que ajudou na coleta de dados' width={855} height={455}/>}/>
+        <SectionInfo title='User flow'  img={<Image src={UserFlow} alt='Flow do usuário' width={964} height={604}/>}/>
+        <SectionInfo title='Mapa de jornada do usuário'  img={<Image src={Mapa} alt='Mapa de jornada' width={898} height={696}/>}/>
           
       <Footer />
     </>
